@@ -1,0 +1,28 @@
+# Python caches and test/tooling state
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local environments (the project will use Conda, created only after approval)
+.venv/
+venv/
+env/
+
+# Dataset, model, and run outputs: keep these out of Git history
+data/raw/
+data/processed/
+data/external/
+data/negative/
+runs/
+weights/
+models/
+outputs/
+
+# Local/editor/OS files
+.DS_Store
+.idea/
+.vscode/
