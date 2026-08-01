@@ -384,7 +384,7 @@ Only this status table should move ahead. Later-slice code should not appear ear
 
 | Slice | Short name | Status |
 |---:|---|---|
-| 00 | Research map and learning contract | Ready to start |
+| 00 | Research map and learning contract | Complete |
 | 01 | Repository and environment | Pending |
 | 02 | Image arrays and tensors | Pending |
 | 03 | Detection concepts | Pending |

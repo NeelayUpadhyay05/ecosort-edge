@@ -18,6 +18,8 @@ For each change, record:
 ### Created
 
 - `PROJECT_CHARTER.md` — the research questions, hypotheses, system boundary, non-claims, and E0–E5 experiment map.
+- `ECOSORT_EDGE_BUILD_PLAN.md` — marked Slice 00 complete in the canonical progress tracker.
+- `artifact.json` and `ECOSORT_EDGE_BUILD_PLAN.html` — refreshed the generated reading copy to match the completed tracker.
 - `README.md` — minimal GitHub-facing project entry point.
 - `.gitignore` — excludes local environments, datasets, model weights, run outputs, and tooling caches.
 - `log.md` — this change log and future entry template.
