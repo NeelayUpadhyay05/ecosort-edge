@@ -1,14 +1,12 @@
 # EcoSort Edge
 
-EcoSort Edge is a learning-first litter-detection and environmental-auditing project based on Project 1 of the AI/QML Project Handbook.
+EcoSort Edge is a reproducible litter-detection and environmental-auditing research project.
 
-The project is being built in small, explainable slices. The current slice is Slice 00: the research map and project charter. No model, dataset, Python environment, or training pipeline has been created yet.
+The project is being built as a reproducible empirical study of litter detection in real-world conditions. It is currently in the planning stage; no model, dataset, Python environment, or training pipeline has been created yet.
 
 Start here:
 
-- [Build plan](ECOSORT_EDGE_BUILD_PLAN.md) — the canonical 25-slice sequence.
-- [Project charter](PROJECT_CHARTER.md) — Slice 00’s research questions, boundary, hypotheses, and experiment map.
-- [Change log](log.md) — what has been created or changed and how it was checked.
+- [Project overview](PROJECT_OVERVIEW.md) — the public-facing project description, research questions, evaluation plan, and limitations.
 
 The project will not claim municipal deployment, automatic recyclability decisions, autonomous robot control, or generalization beyond the evaluated data.
 

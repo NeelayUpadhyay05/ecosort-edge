@@ -14,6 +14,13 @@ htmlcov/
 *.pem
 *.key
 
+# Private working notes; public project documentation belongs in the root
+.project-notes/
+
+# Generated planning/report artifacts kept locally for reference
+ECOSORT_EDGE_BUILD_PLAN.html
+artifact.json
+
 # Local environments (the project will use Conda, created only after approval)
 .venv/
 venv/
