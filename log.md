@@ -25,6 +25,7 @@ For each change, record:
 ### Repository action
 
 - Initialized a local Git repository on the `main` branch.
+- Created initial commit `e9c10a4` (`Complete Slice 00 project charter`).
 
 ### Verification
 
