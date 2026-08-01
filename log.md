@@ -61,6 +61,8 @@ For each change, record:
 
 - Local commit `96fe139` (`chore: tighten repository ignore rules`) was created on `chore/repository-hygiene`.
 - Push to `origin` was attempted and rejected by GitHub with `Invalid username or token`; no remote files were changed.
+- SSH authentication was then verified successfully for `NeelayUpadhyay05`.
+- The `origin` URL was switched to SSH, and commits through `010eee2` were pushed successfully to `origin/chore/repository-hygiene`.
 
 ## Future entry template
 
