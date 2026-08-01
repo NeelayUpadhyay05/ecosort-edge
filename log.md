@@ -39,6 +39,24 @@ For each change, record:
 
 - No Conda environment or environment file was created. Before Slice 01 creates one, the project owner must provide the requested environment details.
 
+## 2026-08-01 — Repository artifact audit
+
+### Decision
+
+- Keep tracked: the Markdown plan, project charter, README, change log, `.gitignore`, generated portable plan HTML, and its `artifact.json` source payload.
+- Keep the generated plan artifacts because they are small, contain no credentials or machine-local paths, and provide a reproducible/shareable reading copy of the canonical plan.
+- Ignore future raw/processed/external/negative datasets, model checkpoints and exports, training/evaluation outputs, local environments, caches, editor files, and credential files.
+
+### Verification
+
+- Audited every file currently in the folder; no Python source, dataset, model weight, environment file, or secret was present.
+- Confirmed the generated HTML and JSON contain only the plan/report content and safe source metadata.
+- Confirmed `origin/main` already matched the local repository before this cleanup.
+
+### Environment note
+
+- No Conda environment was created or changed.
+
 ## Future entry template
 
 ## YYYY-MM-DD — Slice NN

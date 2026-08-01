@@ -7,20 +7,42 @@ __pycache__/
 .coverage
 htmlcov/
 
+# Local secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
 # Local environments (the project will use Conda, created only after approval)
 .venv/
 venv/
 env/
 
-# Dataset, model, and run outputs: keep these out of Git history
-data/raw/
-data/processed/
-data/external/
-data/negative/
+# Dataset contents: keep personal/raw/generated data out of Git history.
+# Versioned manifests and documentation can still be added explicitly.
+data/raw/**
+data/processed/**
+data/external/**
+data/negative/**
+
+# Model checkpoints and exported binaries
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.engine
+*.safetensors
+
+# Training, evaluation, and generated output directories
 runs/
 weights/
 models/
 outputs/
+reports/generated/
+
+# Local notebooks and their transient checkpoints
+.ipynb_checkpoints/
 
 # Local/editor/OS files
 .DS_Store
