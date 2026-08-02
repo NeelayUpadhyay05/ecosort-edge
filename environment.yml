@@ -1,0 +1,12 @@
+name: ecosort-edge
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytest=9.0.3
+  - pip:
+      - torch==2.10.0
+
+# Local development currently reuses the existing pytorch-gpu environment.
+# This file describes a clean, reproducible environment for another machine.
