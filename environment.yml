@@ -7,6 +7,7 @@ dependencies:
   - pytest=9.0.3
   - pip:
       - torch==2.10.0
+      - pillow==12.2.0
 
 # Local development currently reuses the existing pytorch-gpu environment.
 # This file describes a clean, reproducible environment for another machine.
