@@ -9,14 +9,17 @@ Start here:
 - [Project overview](PROJECT_OVERVIEW.md) — the public-facing project description, research questions, evaluation plan, and limitations.
 - [Environment specification](environment.yml) — the clean-environment specification for reproducibility.
 
-Run the environment smoke check with:
+Activate a Conda environment containing the dependencies, then run the
+cross-platform environment smoke check from the repository root:
 
-```bash
-bash scripts/smoke_test.sh
+```text
+python scripts/smoke_test.py
 ```
 
 The project will not claim municipal deployment, automatic recyclability decisions, autonomous robot control, or generalization beyond the evaluated data.
 
 ## Environment note
 
-Local development uses the existing `pytorch-gpu` Conda environment. The repository’s `environment.yml` describes a clean environment for reproducing the project on another machine.
+The repository’s `environment.yml` describes a clean environment for reproducing
+the project. Install the PyTorch build appropriate for the operating system and,
+when applicable, the machine's CUDA support.
